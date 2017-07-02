@@ -13,9 +13,8 @@ class anagram {
     std::vector<std::string> matches(std::vector<std::string> match_list);
   private:
     std::string word;
-    std::unordered_map<char, int> word_map;
+    std::string sorted;
     bool is_anagram(std::string possible_match);
-    std::unordered_map<char, int> populate_map(std::string populate_word);
 };
 
 }
